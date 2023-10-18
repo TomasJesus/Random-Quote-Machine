@@ -5,7 +5,7 @@ type Props = {
 function QuoteText(props: Props) {
     return (
         <div>
-            <h3>{props.quote}</h3>
+            <h3 id="text">{props.quote}</h3>
         </div>
     );
 }

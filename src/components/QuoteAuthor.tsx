@@ -5,7 +5,7 @@ type Props = {
 function QuoteAuthor(props: Props) {
     return (
         <div>
-            <p>{props.author}</p>
+            <p id="author">{props.author}</p>
         </div>
     );
 }
