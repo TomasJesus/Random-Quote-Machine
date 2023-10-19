@@ -3,6 +3,6 @@ import NewQuote from '../../../components/NewQuote';
 
 export default createBoard({
     name: 'NewQuote',
-    Board: () => <NewQuote />,
+    Board: () => <NewQuote onPress={ () => void } />,
     isSnippet: true,
 });
