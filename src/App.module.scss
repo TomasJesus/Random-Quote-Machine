@@ -5,12 +5,28 @@
     flex-wrap: wrap;
     align-items: center;
     justify-items: center;
-    margin-left: auto;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    width: 99%;
+    width: 50%;
     height: 50%;
     border: 0px solid black;
-    padding: 15% 0px 0px;
+    padding: 0% 0px 10px;
+    background-color: #DBBEBE;
+    border-radius: 15px;
+    font-family: Georgia, serif;
+    margin: auto;
+}
+
+.TwitterButton {
+    display: flex;
+}
+
+.TwitterButton {
+    align-items: start;
+    justify-items: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.twitter-Logo {
+    background-color: rgba(0, 0, 0, 0);
 }
